@@ -1,0 +1,5 @@
+Por que devemos preencher um ponteiro apenas com o endereço de uma variá-vel ou por alocação dinâmica usando funções como malloc?
+
+Porque  se  tentarmos  alocar  indiscriminadamente  um  endereço  qualquer  a  um  ponteiro, corremos o risco de estar manipulando uma área da memória que está sendo utilizada por outro programa ou até mesmo pelo sistema operacional, o que pode causar instabilidade no computador.
+
+Para otimizar o uso da memória, pois reserva espaços em memória em tempo de execução alocando memória dinamicamente conforme a necessidade
